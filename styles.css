@@ -7,6 +7,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    
 }
 
 header img {
@@ -18,20 +19,23 @@ header img {
 .header {
     width: 100vw;
     height: 70px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #505050;
     position: absolute;
     opacity: 1;
+    position: fixed;
 }
 
 .header .links {
-    align-items: center;
     margin-right: 60px;
     gap: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 300px;
 }
 
 .header .links a {
+    justify-content: center;
     width: 80px;
     text-decoration: none;
     color: black;
@@ -117,7 +121,7 @@ main .box .img {
 
 main{
     width: 100vw;
-    height: 1000px;
+    height: 850px;
     background-image: url(./Galleon.jpg);
     display: flex;
     justify-content: center;
@@ -127,6 +131,120 @@ main{
 main .box {
     width: 1200px;
     height: 500px;
-    margin: 0px 0px 250px 0px;
+    margin: 0px 0px px 0px;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.random-info {
+    background-image: url(./weirdartefact.png);
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+.random-info .cards{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 300px;
+    gap: 30px;
+    margin-bottom: 150px;
+
+}
+
+.random-info .cards div {
+    width: 250px;
+    
+}
+
+.random-info .cards div img {
+    width: 100%;
+    height: 80%;
+    border: black solid;
+    border-radius: 5px;
+    background-color: white;
+    opacity: .9;
+}
+
+.random-info .cards div p {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: black solid;
+}
+
+.phrase {
+    background-color: #E0C9A6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 400px;
+}
+
+.phrase div {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.phrase div h3 {
+    align-self: end;
+}
+
+.SignUp {
+    background-color: #505050 ;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUp .box {
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 80px;
+    background-color: #8E7F6F;
+    display: flex;
+    width: 800px;
+    gap: 60px;
+}
+
+.SignUp .box h2 {
+    color: #E0C9A6;
+}
+
+.SignUp .box .GotEm {
+    width: 100px;
+    border: #E0C9A6 solid;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.SignUp .box .GotEm a{
+    display: flex;
+    color: #E0C9A6;
+    text-decoration: none;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B4B48;
 }
